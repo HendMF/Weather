@@ -1,0 +1,45 @@
+.weatherCard {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(124, 190, 202);
+    padding: 30px;
+    border-radius: 4px;
+    position: relative;
+    top: 100px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    gap: 30px;
+
+}
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+form input {
+    outline: none;
+    border: none;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 11px;
+    border-radius: 4px}
+form span{
+    border: none;
+    cursor: pointer;
+}
+@media (max-width:325px) {
+
+    .container {
+        padding: 30px 15px;
+    
+    }
+    form{
+        gap: 10px;
+    }
+}

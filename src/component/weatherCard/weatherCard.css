@@ -1,0 +1,56 @@
+.weatherCard .weatherInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.weatherCard .weatherInfo .weatherIcon {
+    font-size: 50px;
+    color: rgb(241, 217, 80);
+}
+
+.weatherCard .weatherInfo .additional {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.weatherCard .weatherInfo .additional .humidity,
+.speed {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.weatherCard .icon {
+    font-size: 30px;
+    color: rgb(250, 243, 208);
+}
+
+.weatherCard .weatherInfo .additional .humInfo,
+.speedInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+@media (max-width:325px) {
+
+    .weatherInfo h3 {
+        font-size: 15px;
+    }
+
+    .weatherInfo .city {
+        font-size: 13px;
+    }
+
+    .weatherCard .icon {
+        font-size: 20px;
+    }
+
+    .weatherCard h5 {
+        font-size: 12px;
+    }
+}
